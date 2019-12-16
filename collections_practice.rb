@@ -42,6 +42,7 @@ def kesha_maker(array)
   return word_change
 end
 
+
 def find_a(string)
 
   string.select do |word|
@@ -49,7 +50,11 @@ def find_a(string)
   end
 end
 
+
 def sum_array(array)
   array.sum
-  
 end
+
+
+
+
