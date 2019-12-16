@@ -31,8 +31,9 @@ end
   
   
 def kesha_maker(array)
+  word_$s = []
   array.map do |string|
-    yield string(2) = $
+   string.split("")
   end
   array
 end
