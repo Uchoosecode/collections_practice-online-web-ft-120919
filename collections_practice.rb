@@ -45,9 +45,7 @@ end
 def find_a(string)
 
   string.select do |word|
-    word.starts_with?
-  
-  
+    word.start_with?("a")
   
 end
 
