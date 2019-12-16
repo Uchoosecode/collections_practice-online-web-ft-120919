@@ -32,14 +32,22 @@ end
   
 def kesha_maker(array)
   word_change = []
+  
   array.each do |string|
-    word_split = string.split("")
-    word_split[2] = "$" 
+    word_split = string.split("")#splits each word element to the letter strings
+    word_split[2] = "$" #changes the third element into a $ sign
+  
     word_change << word_split.join
   end
   return word_change
 end
 
-
+def find_a(string)
+  words_start_with_a = []
+  string.map do |word|
+  
+  
+  
+end
 
 
