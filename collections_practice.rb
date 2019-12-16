@@ -49,4 +49,7 @@ def find_a(string)
   end
 end
 
-
+def sum_array(array)
+  array.sum
+  
+end
