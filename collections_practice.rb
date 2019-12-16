@@ -31,10 +31,10 @@ end
   
   
 def kesha_maker(array)
-  array.sort do |a, b|
-    a
-  
-  
+  array.map do |string|
+    yield string(2) = $
+  end
+  array
 end
 
 
