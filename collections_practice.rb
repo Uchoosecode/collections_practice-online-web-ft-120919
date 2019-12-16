@@ -57,12 +57,12 @@ end
 
 
 def add_s(array)
-  new_arr = []
   array.each_with_index do |word, index|
     if index == 1 
-      new_arr << word
+      word
     else 
       "s" << word 
+    end
   
   
   
