@@ -35,10 +35,9 @@ def kesha_maker(array)
   array.map do |string|
     word_split = string.split("")
     word_split(2) = $ 
-    
-  
+    word_$s << word_split.join
   end
-  array
+  return word_$s
 end
 
 
